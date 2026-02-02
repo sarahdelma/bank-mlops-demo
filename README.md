@@ -1,10 +1,8 @@
 ### Bank MLops Demo
 
-This repository contains a **Demo Project** for building an MLOps workflow for a banking application using the PromptIQ AI platform.
+This repository contains a **Demo Project** for building an MLOps workflow for a banking application using AI.
 
 ---
-
-### Project Structure
 
 How to Use
 ----------
@@ -12,18 +10,18 @@ How to Use
 1. **Training the Model**
 Run the training script to generate the model and scaler:
 
->> pip install -r requirements.txt
->> python training/train_model.py
+     pip install -r requirements.txt
+     python training/train_model.py
             or
->> python train_model.py
+     python train_model.py
 
 2. **Making Predictions**
 Use the inference script:
 
->> python inference/predict.py
+     python inference/predict.py
         or
 
->> python predict.py        
+     python predict.py        
 
 3. **LLM Integration**
 Scripts in the llm/ folder handle communication with LLM-based workflows.
@@ -35,11 +33,11 @@ Scripts in the llm/ folder handle communication with LLM-based workflows.
 1. Make sure you have Streamlit installed (if not, install it):
 
 
->> pip install streamlit
+pip install streamlit
 
 - Run the Streamlit app from the project root
 
->> streamlit run app.py
+     streamlit run app.py
 
 
 ### Notes
@@ -64,6 +62,6 @@ If you want to track model files, remove them from .gitignore.
 1. Replace your current `README.md` content with the above.  
 2. Add, commit, and push:  
 
->> git add README.md
->> git commit -m "Update README.md with .gitignore info and project notes."
->> git push
+     git add README.md
+     git commit -m "Update README.md with .gitignore info and project notes."
+     git push
